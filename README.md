@@ -1,15 +1,30 @@
-کانال ارتباط فایل امن
- یک کانال ارتباطی ساده و امن است که در پایتون پیاده سازی شده است. این نشان می دهد که چگونه می توان داده ها را به طور ایمن بین دو فرآیند یا برنامه با استفاده از ذخیره سازی فایل به عنوان یک رسانه ارتباطی نوشت و خواند. داده ها با استفاده از رمزگذاری AES برای امنیت بیشتر رمزگذاری می شوند.
+Secure file communication channel
+  It is a simple and secure communication channel implemented in Python. It shows how data can be written and read securely between two processes or programs using file storage as a communication medium. Data is encrypted using AES encryption for added security.
 
-امکانات
-ذخیره سازی امن فایل: داده ها با استفاده از فایل های موقت به صورت ایمن ذخیره می شوند تا از دسترسی های غیرمجاز جلوگیری شود.
-رمزگذاری AES: داده ها با استفاده از رمزگذاری AES برای امنیت بیشتر رمزگذاری می شوند.
-رسیدگی به خطا: کد شامل بلوک‌هایی است که به غیر از امتحان می‌تواند خطاهای احتمالی را به خوبی مدیریت کند.
-الزامات
-پایتون 3.6 یا بالاتر
-کتابخانه رمزنگاری
+Possibilities
+Secure file storage: Data is stored securely using temporary files to prevent unauthorized access.
+AES Encryption: Data is encrypted using AES encryption for added security.
+Error handling: The code contains blocks that can handle possible errors well, apart from testing.
+requirements
+Python 3.6 or higher
+Cryptographic library
 
-اسکریپت main.py را برای نوشتن پیام در یک فایل امن اجرا کنید:
-پایتون main.py
-اسکریپت یک فایل امن با نام safe_secret_channel.txt ایجاد می کند که حاوی پیام رمزگذاری شده است.
-برای خواندن پیام از فایل امن، اسکریپت main.py را دوباره اجرا کنید.
+Run the main.py script to write the message to a secure file:
+Python main.py
+The script creates a secure file named safe_secret_channel.txt that contains the encrypted message.
+Run the main.py script again to read the message from the secure file.
+Secure file communication channel
+  It is a simple and secure communication channel implemented in Python. It shows how data can be written and read securely between two processes or programs using file storage as a communication medium. Data is encrypted using AES encryption for added security.
+
+Possibilities
+Secure file storage: Data is stored securely using temporary files to prevent unauthorized access.
+AES Encryption: Data is encrypted using AES encryption for added security.
+Error handling: The code contains blocks that can handle possible errors well, apart from testing.
+requirements
+Python 3.6 or higher
+Cryptographic library
+
+Run the main.py script to write the message to a secure file:
+Python main.py
+The script creates a secure file named safe_secret_channel.txt that contains the encrypted message.
+Run the main.py script again to read the message from the secure file.
